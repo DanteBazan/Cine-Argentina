@@ -61,8 +61,9 @@ body {
 }
 /* PRESENTACION */
 .present {
-  padding: 40px 0px;
-  background-image: url(./img/Imagen\ de\ WhatsApp\ 2023-11-24\ a\ las\ 01.01.51_aaf0532a.jpg);
+  padding: 90px 0px;
+  /* background-image: url(./img/Imagen\ de\ WhatsApp\ 2023-11-24\ a\ las\ 01.01.51_aaf0532a.jpg); */
+  background-image: url(../img/Imagen\ de\ WhatsApp\ 2023-11-24\ a\ las\ 01.01.51_aaf0532a.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
