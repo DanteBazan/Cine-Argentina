@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #131415;
+}
+
+/* NAVBAR */
+.header {
+  background: yellow;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo__img {
+  height: 50px;
+  border-radius: 25%;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar__list a {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.navbar__list a:hover {
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 10px;
+  transition-duration: 0.7s;
+}
+
+/* MAIN */
+.main {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+/* PRESENTACION */
+.present {
+  padding: 40px 0px;
+  background-image: url(./img/Imagen\ de\ WhatsApp\ 2023-11-24\ a\ las\ 01.01.51_aaf0532a.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text__present {
+  font-size: 50px;
+  color: yellow;
+  letter-spacing: 15px;
+}
+
+/* HERO */
+.hero {
+  padding: 150px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  /* width: 80%; */
+  height: 500px;
+}
+
+.container__info {
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.title__hero {
+  font-size: 43px;
+  max-width: 200px;
+  color: white;
+}
+
+.description__hero {
+  color: rgb(209, 204, 204);
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.noche__paz h1 {
+  max-width: 300px;
+}
+
+.ocho__apellidos h1 {
+  max-width: 400px;
+}
+
+.la__sociedad h1 {
+  max-width: 300px;
+}
+
+.aquaman h1 {
+  max-width: 300px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+  margin-top: 50px;
+  width: 100%;
+}
